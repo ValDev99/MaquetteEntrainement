@@ -416,7 +416,7 @@ nav .menu a {
 #interncomment {
     height: 70%;
     width: 70%;
-    border: 5px solid gainsboro;
+    border: 5px solid #45a090;
     border-radius: 5px;
     display: flex;
     flex-direction: column;
@@ -424,7 +424,23 @@ nav .menu a {
     align-items: center;
 }
 #email {
+    width: 50vh;
+    height: 5vh;
     display: flex;
+    border: 3px solid #45a090;
+    border-radius: 5px;
+    background-color: #258675;
+
+}
+input::placeholder{
+    color: white;
+}  
+#boutonemail {
+    height: 5vh;
+    width: 14vh;
+    background-color: orangered;
+    color: white;
+    border-radius: 5px;
 }
 
 /* FIN SECTION 8  */
@@ -433,9 +449,17 @@ nav .menu a {
 /* SECTION 9  */
 
 #contact {
+    height: 90vh;
     display: flex;
     justify-content: space-around;
     align-items: center;
+}
+#formulaire {
+    width: 40vh;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
 
@@ -444,11 +468,25 @@ nav .menu a {
 /* FOOTER  */
 
 #footer {
+    height: 20vh;
     display: flex;
     justify-content: space-around;
+    align-items: center;
 }
 
 #logofooter {
     display: flex;
+}
+#logofin {
+    width: 20vh;
+    display: flex;
+    justify-content: space-around;
+}
+.fab {
+    color: orangered;
+}
+.textlumi {
+    font-weight: 600;
+
 }
 /* FIN FOOTER  */
