@@ -41,9 +41,14 @@ nav .menu a {
     width: 50%;
     display: flex;
     justify-content: flex-end;
+    align-items: center;
 }
 .button {
     width: 20vh;
+}
+#boutonsignin {
+    color: black;
+    font-weight: 600;
 }
 /* FIN HEADER  */
 
@@ -84,7 +89,7 @@ nav .menu a {
     height: 40px;
     color: white;
 }
-#boutonnormal {
+.boutonnormal {
     margin-left: 10px;
     width: 100px;
     height: 40px;
@@ -206,8 +211,9 @@ nav .menu a {
 
 }
 .johncena {
-    font-size: 3vh;
+    font-size: 5vh;
     color: coral;
+    font-family: Brush Script MT, Brush Script Std, cursive;
 }
 /* FIN SECTION 3  */
 
@@ -334,7 +340,7 @@ nav .menu a {
 .border {
     height:10% ;
     width:80% ;
-    border: 1px solid gray;
+    border: 1px  gray;
 }
 .colone {
     height: 66%;
@@ -474,9 +480,17 @@ input::placeholder{
 }
 #trespetit {
     font-size: 1.7vh;
+    display: flex;
 }
 #textitalicorange {
     color: orangered;
+}
+#cubegauche {
+    width: 28%;
+    height: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 /* FIN SECTION 9  */
 
