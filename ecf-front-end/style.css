@@ -454,15 +454,30 @@ input::placeholder{
     justify-content: space-around;
     align-items: center;
 }
+#surformulaire {
+    width: 60vh;
+    height: 70vh;
+}
 #formulaire {
-    width: 40vh;
-    height: 50vh;
+    width: 99%;
+    height: 90%;
+    border: 1px solid black;
+    border-radius: 20px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    align-items: center;
+    
 }
-
-
+#formulaire input::placeholder {
+    color: black;
+}
+#trespetit {
+    font-size: 1.7vh;
+}
+#textitalicorange {
+    color: orangered;
+}
 /* FIN SECTION 9  */
 
 /* FOOTER  */
